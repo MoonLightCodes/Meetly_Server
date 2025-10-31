@@ -34,7 +34,7 @@ const html = (otp) => `
                   <td align="center" style="padding:16px 0 8px 0;">
                     <!-- Logo (optional) -->
                     <div style="font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:18px;font-weight:700;color:#111827;letter-spacing:.3px;">
-                      Meet in the Middle
+                      Meetly
                     </div>
                   </td>
                 </tr>
@@ -81,7 +81,7 @@ const html = (otp) => `
                 <tr>
                   <td align="center" style="padding:8px 0 0 0;">
                     <div class="muted" style="font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:12px;line-height:19px;color:#9ca3af;">
-                      © ${new Date().getFullYear()} Meet in the Middle • You’re receiving this because someone used your email to sign in.
+                      © ${new Date().getFullYear()} Meetly • You’re receiving this because someone used your email to sign in.
                     </div>
                   </td>
                 </tr>
@@ -105,7 +105,7 @@ const welCOmeMail = () => `
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="x-apple-disable-message-reformatting">
-  <title>Welcome to Meet in the Middle</title>
+  <title>Welcome to Meetly</title>
   <style>
     .preheader { display:none!important; visibility:hidden; opacity:0; color:transparent; height:0; width:0; overflow:hidden; mso-hide:all; }
     @media (prefers-color-scheme: dark) {
@@ -119,7 +119,7 @@ const welCOmeMail = () => `
 </head>
 <body style="margin:0;padding:0;background:#f3f5f9;">
 
-  <span class="preheader">Welcome to Meet in the Middle! Let’s get you started 🚀</span>
+  <span class="preheader">Welcome to Meetly! Let’s get you started 🚀</span>
 
   <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background:#f3f5f9;">
     <tr>
@@ -134,7 +134,7 @@ const welCOmeMail = () => `
                 <tr>
                   <td align="center" style="padding:16px 0 8px 0;">
                     <div style="font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:22px;font-weight:700;color:#111827;letter-spacing:.3px;">
-                      🎉 Meet in the Middle
+                      🎉 Meetly
                     </div>
                   </td>
                 </tr>
@@ -145,10 +145,10 @@ const welCOmeMail = () => `
                 <tr>
                   <td style="padding:28px 24px 8px 24px;">
                     <div class="title" style="font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:22px;line-height:30px;color:#111827;font-weight:700;">
-                      Welcome to Meet in the Middle 🚀
+                      Welcome to Meetly 🚀
                     </div>
                     <div class="muted" style="font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:24px;color:#6b7280;margin-top:6px;">
-                      We’re excited to have you on board! Meet in the Middle helps you connect, collaborate, and find the perfect common ground effortlessly.
+                      We’re excited to have you on board! Meetly helps you connect, collaborate, and find the perfect common ground effortlessly.
                     </div>
                   </td>
                 </tr>
@@ -182,7 +182,7 @@ const welCOmeMail = () => `
                 <tr>
                   <td align="center" style="padding:8px 0 0 0;">
                     <div class="muted" style="font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:12px;line-height:19px;color:#9ca3af;">
-                      © ${new Date().getFullYear()} Meet in the Middle • Thank you for joining us on this journey.
+                      © ${new Date().getFullYear()} Meetly • Thank you for joining us on this journey.
                     </div>
                   </td>
                 </tr>
@@ -233,7 +233,7 @@ const userDeleteTemplete = () => `
                 <tr>
                   <td align="center" style="padding:16px 0 8px 0;">
                     <div style="font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:18px;font-weight:700;color:#111827;letter-spacing:.3px;">
-                      Meet in the Middle
+                      Meetly
                     </div>
                   </td>
                 </tr>
@@ -272,7 +272,7 @@ const userDeleteTemplete = () => `
                 <tr>
                   <td align="center" style="padding:8px 0 0 0;">
                     <div class="muted" style="font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:12px;line-height:19px;color:#9ca3af;">
-                      © ${new Date().getFullYear()} Meet in the Middle • You’re receiving this because you requested to delete your account.
+                      © ${new Date().getFullYear()} Meetly • You’re receiving this because you requested to delete your account.
                     </div>
                   </td>
                 </tr>
@@ -382,7 +382,7 @@ const accountDeletedMail = () => `
             <td>
               <!-- Header -->
               <div class="header">
-                Meet in the Middle
+                Meetly
               </div>
 
               <!-- Card -->
@@ -409,7 +409,7 @@ const accountDeletedMail = () => `
 
               <!-- Footer -->
               <div class="footer">
-                © ${new Date().getFullYear()} Meet in the Middle • You’re receiving this because your account has been permanently deleted.
+                © ${new Date().getFullYear()} Meetly • You’re receiving this because your account has been permanently deleted.
               </div>
 
             </td>

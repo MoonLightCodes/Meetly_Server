@@ -15,7 +15,7 @@ const sendCancellationEmailHtml = ({
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f9fafb; padding:20px;">
       <tr>
         <td style="background-color:#0ea5e9; color:#ffffff; padding:16px; font-weight:bold; font-size:18px; border-radius:8px 8px 0 0; font-family: Arial, sans-serif;">
-          Meet in the Middle
+          Meetly
         </td>
       </tr>
 

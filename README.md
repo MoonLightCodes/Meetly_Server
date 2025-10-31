@@ -1,6 +1,6 @@
-# 🗓️ Meet in the Middle (Backend)
+# 🗓️ Meetly (Backend)
 
-Meet in the Middle is a collaborative meeting scheduling and coordination platform.  
+Meetly is a collaborative meeting scheduling and coordination platform.  
 It helps users find optimal meeting times, share locations, manage invites, and integrate with Google Calendar and Stripe for premium subscriptions.
 
 This repository contains the backend API built with Node.js, Express, and MongoDB.

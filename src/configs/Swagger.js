@@ -5,7 +5,7 @@ const swaggerOptions = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Meet in the middle API docs",
+      title: "Meetly API docs",
       version: "1.0.0",
       description: "API documentation with Swagger",
     },

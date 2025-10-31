@@ -11,7 +11,7 @@ export const sendVerificationEmail = async (email, otp) => {
   const mailOptions = {
     from: process.env.NODE_MAILER_MAIL,
     to: email,
-    subject: "Verify your email for Meet in the Middle",
+    subject: "Verify your email for Meetly",
     html: html(otp), // Use the HTML template for the email content
   };
 
@@ -27,7 +27,7 @@ export const sendWelComeMail = async (email) => {
   const mailOptions = {
     from: process.env.NODE_MAILER_MAIL,
     to: email,
-    subject: "Verify your email for Meet in the Middle",
+    subject: "Verify your email for Meetly",
     html: welCOmeMail(), // Use the HTML template for the email content
   };
 
@@ -155,7 +155,7 @@ export const sendResetPasswordMail = async (email, resetLink) => {
   const mailOptions = {
     from: process.env.NODE_MAILER_MAIL,
     to: email,
-    subject: "Reset Your Password - Meet in the Middle",
+    subject: "Reset Your Password - Meetly",
     html: `
       <h2>Reset Password Request</h2>
       <p>Hello,</p>
