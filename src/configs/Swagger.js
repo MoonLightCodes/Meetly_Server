@@ -5,18 +5,18 @@ const swaggerOptions = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Meetly API docs",
+      title: "Meetly API Docs",
       version: "1.0.0",
-      description: "API documentation with Swagger",
+      description: "API documentation for the Meetly application",
     },
     servers: [
       {
         url: "http://localhost:8000/api",
-         description: "Local server",
+        description: "Local development server",
       },
-       {
-        url: "http://localhost:8000/api", //TODO: Need to add post deployment
-         description: "Production server",
+      {
+        url: "https://meetly-server.vercel.app/api",
+        description: "Production server (Vercel)",
       },
     ],
     components: {
@@ -27,7 +27,7 @@ const swaggerOptions = {
             image: {
               type: "string",
               format: "binary",
-              description: "The avatar image file to upload",
+              description: "Avatar image file to upload",
             },
           },
           required: ["image"],
@@ -38,10 +38,10 @@ const swaggerOptions = {
             name: { type: "string", example: "Maniteja" },
             email: { type: "string", example: "john@example.com" },
             password: { type: "string", example: "123456" },
-            avatar: { type: "string", example: "avatar123.jpg" },
+            avatar: { type: "string", example: "https://cloudinary.com/avatar123.jpg" },
             phone: { type: "string", example: "9876543210" },
             location: { type: "string", example: "Bangalore" },
-            bio: { type: "string", example: "Software developer" },
+            bio: { type: "string", example: "Software Developer" },
           },
         },
         LoginRequest: {
@@ -50,7 +50,7 @@ const swaggerOptions = {
             email: {
               type: "string",
               example: "john@example.com",
-              description: "User's email address",
+              description: "User's email",
             },
             password: {
               type: "string",
@@ -83,9 +83,13 @@ const swaggerOptions = {
         },
       },
     },
+    security: [
+      {
+        bearerAuth: [],
+      },
+    ],
   },
-
-  apis: ["./src/routes/*.js"],
+  apis: ["./src/routes/*.js"], // all your route files
 };
 
 const swaggerSpec = swaggerJsDoc(swaggerOptions);
