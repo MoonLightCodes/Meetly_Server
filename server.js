@@ -16,7 +16,7 @@ import oAuth from "./src/configs/passport.js"; // initializes passport strategie
 import http from "http";
 
 // eslint-disable-next-line import/no-unresolved
-import { swaggerUi, swaggerSpec } from "./src/configs/swagger.js";
+import { swaggerUi, swaggerSpec } from "./src/configs/Swagger.js";
 import connectDB from "./src/configs/mongoose.js";
 import { logger } from "./src/middlewares/logger.js";
 import { securityMiddleware } from "./src/middlewares/security.middleware.js";
