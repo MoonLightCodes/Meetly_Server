@@ -57,7 +57,7 @@ registerMeetingListeners(eventBus);
 app.use(passport.initialize());
 app.use(
   cors({
-    origin: "*",
+    origin: "*", 
     // origin: process.env.FRONTEND_URL,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
